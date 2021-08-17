@@ -1,0 +1,67 @@
+:root {
+    --color-alpha: #ebebf3;
+    --color-bravo: #445877;
+    --color-charlie: #92ccce;
+    --color-delta: #31343d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-alpha);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles for <header> start */
+header {
+    padding: 15px 25px 15px 0px;
+    background-color: var(--color-delta);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background-color: var(--color-charlie);
+    padding: 0 10px 0 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--color-delta);
+}
+
+header nav {
+    margin: 10px 20px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 10px;
+    color: var(--color-charlie);
+    background-color: var(--color-delta);
+    text-decoration: underline var(--color-charlie);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+/* Styles for <header> end */
+
+
+
