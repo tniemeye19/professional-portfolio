@@ -74,18 +74,25 @@ section {
     height: 200px;
     background-size: cover;
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
     background-attachment: fixed;
+    position: relative;
 }
 
 .hero-subtitle {
     background-color: var(--color-charlie);
     color: var(--color-delta);
-    width: 30%;
+    display: inline-block;
     text-align: center;
-    margin: auto;
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+    padding: 0 10px 0 10px;
 }
 /* Styles for hero end */
+
+
+
+
 
 
