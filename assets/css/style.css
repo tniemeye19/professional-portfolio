@@ -63,5 +63,28 @@ header nav ul li a {
 }
 /* Styles for <header> end */
 
+/* Style for all <section> tags */
+section {
+    padding: 10px;
+}
+
+/* Styles for hero start */
+.hero {
+    background-image: url("../images/hero-background.jpg");
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+}
+
+.hero-subtitle {
+    background-color: var(--color-charlie);
+    color: var(--color-delta);
+    margin: 210px 25px 0 0;
+    padding: 0 10px 0 10px;
+}
+/* Styles for hero end */
 
 
