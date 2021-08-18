@@ -71,7 +71,7 @@ section {
 /* Styles for hero start */
 .hero {
     background-image: url("../images/hero-background.jpg");
-    height: 250px;
+    height: 200px;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -82,8 +82,9 @@ section {
 .hero-subtitle {
     background-color: var(--color-charlie);
     color: var(--color-delta);
-    margin: 210px 25px 0 0;
-    padding: 0 10px 0 10px;
+    width: 30%;
+    text-align: center;
+    margin: auto;
 }
 /* Styles for hero end */
 
