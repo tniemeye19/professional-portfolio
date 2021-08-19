@@ -115,24 +115,71 @@ section {
 /* About Me section style end */
 
 /* Work section style start */
-.flex-work {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 0 0 10px
+
+    /* Each work image relative path and style*/
+.surf-report {
+    background-image: url(../images/surf-report.jpg);
+    
 }
 
-.work-images {
-
+.led-wall {
+    background-image: url(../images/led-wall.jpg);
 }
 
-.work-images:first-child {
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
+.calculator {
+    background-image: url(../images/calculator.jpg);
+}
+
+.pastel-puzzles {
+    background-image: url(../images/pastel-puzzles.jpg);
+}
+
+.run-buddy {
+    background-image: url(../images/run-buddy.png);
+}
+    /* Each work image relative path and style end */
+
+.blur {
     filter: blur(2px);
     -webkit-filter: blur(2px);
 }
+
+.flex-work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 0 10px;
+}
+
+.flex-w-item1 {
+    height: 200px;
+    background-size: cover;
+    border: 3px solid var(--color-charlie);
+    padding: 10px 0 0 20px;
+}
+
+
+
 /* Work section style end */
+
+/* Contact me style start */
+.flex-contact-info {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-contact a {
+    color: var(--color-bravo);
+    text-decoration: none;
+    border-bottom: 3px solid var(--color-bravo);
+}
+/* Contact me style end */
 
 
 
