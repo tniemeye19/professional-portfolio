@@ -59,7 +59,7 @@ header nav ul li a {
     background-color: var(--color-delta);
     text-decoration: underline var(--color-charlie);
     text-decoration-thickness: 3px;
-    text-underline-offset: 3px;
+    text-underline-offset: 5px;
 }
 /* Styles for <header> end */
 
@@ -91,7 +91,25 @@ section {
 }
 /* Styles for hero end */
 
+/* About Me section style start */
+.information-container {
+    display: flex;
 
+}
+
+.section-title {
+    color: var(--color-bravo);
+    font-size: 30px;
+    border-right: 3px solid var(--color-bravo);
+    text-align: right;
+    padding: 0 10px 0 50px;
+}
+
+.flex-abtme-info p {
+    padding: 0 0 10px 20px;
+}
+
+/* About Me section style end */
 
 
 
