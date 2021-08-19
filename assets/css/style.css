@@ -115,11 +115,17 @@ section {
 /* About Me section style end */
 
 /* Work section style start */
-.flex-work-images {
+.flex-work {
     display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 0 10px
 }
 
-.flex-work-images img {
+.work-images {
+
+}
+
+.work-images:first-child {
     max-width: 100%;
     height: auto;
     background-size: cover;
