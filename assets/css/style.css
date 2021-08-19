@@ -92,12 +92,13 @@ section {
 }
 /* Styles for hero end */
 
-/* About Me section style start */
+
 .information-container {
     display: flex;
-
+    justify-content: center;
 }
 
+/* About Me section style start */
 .section-title {
     color: var(--color-bravo);
     font-size: 30px;
@@ -119,7 +120,6 @@ section {
     /* Each work image relative path and style*/
 .surf-report {
     background-image: url(../images/surf-report.jpg);
-    
 }
 
 .led-wall {
@@ -163,22 +163,19 @@ section {
 
 /* Contact me style start */
 .flex-contact-info {
-    display: inline-flex;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .flex-contact {
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex-contact a {
     color: var(--color-bravo);
     text-decoration: none;
     border-bottom: 3px solid var(--color-bravo);
 }
+/*.flex-contact a {
+
+}*/
+
 /* Contact me style end */
 
 
