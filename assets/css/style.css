@@ -95,7 +95,6 @@ section {
 
 .information-container {
     display: flex;
-    /* flex-basis: */
 }
 
 /* About Me section style start */
@@ -120,11 +119,9 @@ section {
 .flex-work {
     display: flex;
     flex-wrap: wrap;
-    width: 81%;
-    grid-template-columns: 1fr 1fr;
-    /* padding: 0 0 10px; */
+    width: 100%;
     justify-content: center;
-    height: 1000px;
+    min-height: 1000px;
 }
 
 .flex-w-item {
@@ -132,12 +129,11 @@ section {
     max-height: 50%;
     background-size: cover;
     border: 3px solid var(--color-charlie);
-    margin: 10px 0 10px 20px;
-    /* padding: 10px 0 0 20px; */
+    margin: 10px;
 }
 
 .flex-w-item:first-child {
-    min-width: 97%;
+    min-width: 98%;
     max-height: 400px;
 }
     /* Each work image relative path */
@@ -164,22 +160,17 @@ section {
 
 .flex-w-item h4 {
     font-size: 20px;
-    padding: 10px 10px 0 10px;
+    padding: 0 10px 0 10px;
     margin: 210px 0 0 0;
-
-}
-
-.flex-w-item p {
-    font-size: 14px;
-    padding: 0 10px 10px 10px;
-}
-
-.flex-w-item h4, .flex-w-item p {
     color: var(--color-delta);
     background-color: var(--color-charlie);
     width: fit-content;
-    
 }
+
+.flex-w-item h4 span {
+    font-size: 14px;
+}
+
 /* Work section style end */
 
 /* Contact me style start */
@@ -202,6 +193,25 @@ section {
 
 /* Contact me style end */
 
+/* Media Queries */
+@media screen and (max-width: 1200px){
+    /* Applied on any screen smaller than 1200px */
 
+}
+
+@media screen and (max-width: 980px) {
+        /* Applied on any screen smaller than 980px */
+
+}
+
+@media screen and (max-width: 768px) {
+        /* Applied on any screen smaller than 768px */
+
+}
+
+@media screen and (max-width: 575px) {
+        /* Applied on any screen smaller than 575px */
+
+}
 
 
