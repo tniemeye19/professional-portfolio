@@ -110,7 +110,7 @@ section {
 }
 
 .flex-abtme-info p {
-    padding: 0 0 10px 20px;
+    padding: 0 50px 10px 20px;
     color: var(--color-bravo);
 }
 /* About Me section style end */
@@ -122,22 +122,22 @@ section {
     flex-wrap: wrap;
     width: 81%;
     grid-template-columns: 1fr 1fr;
-    padding: 0 0 10px;
+    /* padding: 0 0 10px; */
     justify-content: center;
     height: 1000px;
 }
 
 .flex-w-item {
-    min-width: 47%;
-    max-height: 55%;
+    min-width: 48%;
+    max-height: 50%;
     background-size: cover;
     border: 3px solid var(--color-charlie);
     margin: 10px 0 10px 20px;
-    padding: 10px 0 0 20px;
+    /* padding: 10px 0 0 20px; */
 }
 
 .flex-w-item:first-child {
-    min-width: 96%;
+    min-width: 97%;
     max-height: 400px;
 }
     /* Each work image relative path */
@@ -161,6 +161,25 @@ section {
         background-image: url(../images/run-buddy.png);
     }
         /* Each work image relative path and style end */
+
+.flex-w-item h4 {
+    font-size: 20px;
+    padding: 10px 10px 0 10px;
+    margin: 210px 0 0 0;
+
+}
+
+.flex-w-item p {
+    font-size: 14px;
+    padding: 0 10px 10px 10px;
+}
+
+.flex-w-item h4, .flex-w-item p {
+    color: var(--color-delta);
+    background-color: var(--color-charlie);
+    width: fit-content;
+    
+}
 /* Work section style end */
 
 /* Contact me style start */
@@ -175,7 +194,6 @@ section {
 .flex-contact {
     border-bottom: 3px solid var(--color-bravo);
 }
-
 
 .flex-contact a {
     text-decoration: none;
