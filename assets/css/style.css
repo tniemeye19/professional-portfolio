@@ -167,6 +167,11 @@ section {
     width: fit-content;
 }
 
+.flex-w-item a {
+    text-decoration: none;
+    font-color: var(--color-bravo);
+}
+
 .flex-w-item h4 span {
     font-size: 14px;
 }
@@ -245,6 +250,10 @@ section {
         min-width: 90%;
         max-width: 90%;
         font-size: 4vw;
+    }
+
+    .flex-w-item a {
+        text-align: left;
     }
 
     .flex-abtme-info p {
