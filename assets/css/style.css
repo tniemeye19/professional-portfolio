@@ -156,6 +156,10 @@ section {
     .run-buddy {
         background-image: url(../images/run-buddy.png);
     }
+
+    .cryptowatcher {
+        background-image: url(../images/crypto-watcher.PNG);
+    }
         /* Each work image relative path and style end */
 
 .flex-w-item h4 {
@@ -169,7 +173,7 @@ section {
 
 .flex-w-item a {
     text-decoration: none;
-    font-color: var(--color-bravo);
+    color: var(--color-bravo);
 }
 
 .flex-w-item h4 span {
