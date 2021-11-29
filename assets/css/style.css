@@ -160,6 +160,10 @@ section {
     .cryptowatcher {
         background-image: url(../images/crypto-watcher.PNG);
     }
+
+    .tabletopwarriors {
+        background-image: url(../images/tabletopwarriors.PNG);
+    }
         /* Each work image relative path and style end */
 
 .flex-w-item h4 {
